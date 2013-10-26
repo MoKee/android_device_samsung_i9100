@@ -31,9 +31,5 @@ TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T
 
-ifdef MK_RELEASE
-WITH_DEXPREOPT := true
-endif
-
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/i9100/BoardConfigVendor.mk
